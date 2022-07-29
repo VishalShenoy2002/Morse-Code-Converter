@@ -43,7 +43,8 @@ if __name__=="__main__":
 
     elif choice==2:
         code_input=input("Enter Morse Code: ")
-        print(convertToNormalMessage(code_input))
+        text=convertToNormalMessage(code_input)
+        print(text.lower())
 
     elif choice==3:
         sys.exit(0)
